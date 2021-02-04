@@ -21,3 +21,4 @@ date: 2020-05-29
 
 <Boxx type='tip' title='测试自动化部署'/>
 <Boxx type='tip' title='测试自动化部署'/>
+<Boxx type='tip' title='测试自动化部署'/>
