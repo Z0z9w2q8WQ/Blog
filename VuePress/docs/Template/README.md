@@ -18,4 +18,5 @@ date: 2020-05-29
 <Boxx type='danger' title='danger 标题' content='danger 内容'/>
 <!-- 标题结束 -->
 
-</script>
+
+<Boxx type='tip' title='测试自动化部署'/>

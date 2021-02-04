@@ -1,8 +1,7 @@
 module.exports = {
   title: "文问问·笔记",
   description: "Web 技术栈",
-  // base:'./',
-  base:'/',
+  base:'/zwq/',
   dest: "build",
   head: getHead(),
   plugins: getPlugins(),
@@ -102,9 +101,9 @@ function getPlugins(){
     [
       "dynamic-title",
       {
-        showIcon: "/favicon.ico",
+        showIcon: "/zwq/images/favicon.ico",
         showText: "欢迎！",
-        hideIcon: "/failure.ico",
+        hideIcon: "/zwq/images/failure.ico",
         hideText: "拜拜！",
         recoverTime: 2000,
       },
