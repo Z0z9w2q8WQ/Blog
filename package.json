@@ -1,0 +1,24 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "author": "reco_luan",
+  "scripts": {
+    "serve": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build ."
+  },
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.8.0",
+    "vuepress": "1.7.1",
+    "vuepress-theme-reco": "1.6.1"
+  },
+  "description": "Web 技术栈",
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-extract-code": "^1.0.4",
+    "reading-progress": "^1.0.0",
+    "vuepress-plugin-boxx": "^0.0.7",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-flowchart": "^1.4.3",
+    "vuepress-plugin-helper-live2d": "^1.0.2",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3"
+  }
+}
