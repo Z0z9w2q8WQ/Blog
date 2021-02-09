@@ -1,8 +1,8 @@
 ---
 title: 权限指令
-date: '2021-02-09'
-sidebar: true
-subSidebar: "auto"
+date: 2021-02-09
+sidebar: auto
+sidebarDepth: 4
 categories:
  - Vue
  - Vue 指令
@@ -13,11 +13,13 @@ publish: true
 sticky: 2
 ---
 
-<h2>场景介绍</h2>
-<p>如果我们项目有一些按钮的权限，我们定义一个权限指令，来控制按钮的显示与隐藏</p>
+## 场景介绍
 
-<h2>场景实现</h2>
-<h3>directives>role>index.js</h3>
+如果我们项目有一些按钮的权限，我们定义一个权限指令，来控制按钮的显示与隐藏
+
+## 场景实现
+
+### directives>role>index.js
 
 ``` js
 import checkRolePermission from "./role";
@@ -32,7 +34,7 @@ checkRolePermission.install = install;
 export default checkRolePermission;
 ```
 
-<h3>directives>role>role.js</h3>
+### directives>role>role.js
 
 ``` js
 import store from "store";
@@ -63,14 +65,14 @@ export default {
 };
 ```
 
-<h3>main.js</h3>
+### main.js
 
 ``` js
 import checkRolePermission from "directives/role/";
 Vue.use(checkRolePermission);
 ```
 
-<h3>home.vue</h3>
+### home.vue
 
 ``` js
 <button v-checkRolePermission="['admin']">admin 按钮</button>

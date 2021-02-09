@@ -4,13 +4,11 @@ title: 模板
 #文章创建日期
 date: '2021-02-05 08:00:00'
 #是否开启侧边栏
-sidebar: 'auto'
-#是否开启子侧边栏
-subSidebar: false
+sidebar: auto
+sidebarDepth: 4
 #所属分类
 categories:
  - 模板
- - 博客
 #所属标签
 tags:
  - 模板
@@ -150,3 +148,10 @@ e=>end: End
 cond(yes)->process->e
 cond(no)->e
 @flowend
+
+## 二级标题
+
+### 三级标题
+
+#### 四级标题
+
