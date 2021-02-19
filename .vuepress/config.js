@@ -1,11 +1,11 @@
-const sidebar=require('./config/sidebar');
-const nav=require('./config/nav');
-const plugins=require('./config/plugins');
-const head=require('./config/head');
+const sidebar = require("./config/sidebar");
+const nav = require("./config/nav");
+const plugins = require("./config/plugins");
+const head = require("./config/head");
 module.exports = {
-  title: "文问问·笔记",
+  title: "柏拉文",
   description: "Web 技术栈",
-  base:'/zwq/',
+  base: "/zwq/",
   dest: "build",
   head: head,
   plugins: plugins,
@@ -14,7 +14,7 @@ module.exports = {
     logo: "/images/logo.png",
     search: true,
     searchMaxSuggestions: 10,
-    lastUpdated: '上次更新',
+    lastUpdated: "上次更新",
     author: "张文强",
     authorAvatar: "/images/avatar.png",
     record: "晋ICP备20001106号-2",
@@ -49,9 +49,9 @@ module.exports = {
       },
     ],
     valineConfig: {
-      appId: '1CfklkaW1giRXAN2jywwOhBo-gzGzoHsz',// your appId
-      appKey: 'BzbRaMAAGhWNKSQAkjnKzq5a', // your appKey
-    }
+      appId: "1CfklkaW1giRXAN2jywwOhBo-gzGzoHsz", // your appId
+      appKey: "BzbRaMAAGhWNKSQAkjnKzq5a", // your appKey
+    },
   },
   markdown: {
     lineNumbers: true,
